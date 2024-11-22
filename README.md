@@ -1,6 +1,6 @@
 # Dynamic Task Mapping Demo
 
-This project showcases how to use dynamic task mapping in Apache Airflow.
+This project showcases how to use Dynamic Task Mapping in Apache Airflow.
 
 For details, please read my article: [Stop Creating Multiple Airflow DAGs for Reloads and Parallel Processing](https://vojay.de/2024/11/22/airflow-dynamic/)
 
