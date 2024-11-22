@@ -5,7 +5,7 @@ This project showcases how to use Dynamic Task Mapping in Apache Airflow.
 ![Dynamic Task Mapping demo](doc/demo.gif)
 *Dynamic Task Mapping demo*
 
-For details, please read my article: [Stop Creating Multiple Airflow DAGs for Reloads and Parallel Processing](https://vojay.de/2024/11/22/airflow-dynamic/)
+For details, please read my article: [Stop Creating Multiple Airflow DAGs for Reloads and Parallel Processing](https://medium.com/data-engineer-things/stop-creating-multiple-airflow-dags-for-reloads-and-parallel-processing-3912974b5866)
 
 In this article, we’ll tackle a common challenge in Airflow development: the proliferation of nearly identical DAGs for
 handling different data processing scenarios, especially those involving partitioned tables and historical reloads.
