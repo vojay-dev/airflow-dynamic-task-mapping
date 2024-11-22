@@ -15,6 +15,16 @@ handling both daily operations and custom date range reloads with ease.
 ![Dynamic Task Mapping DAG](doc/dag.png)
 *Dynamic Task Mapping DAG*
 
+The DAG uses [DuckDB](https://duckdb.org/) to write partitioned [Parquet files](https://parquet.apache.org/),
+simulating a typical data partitioning scenario. The data is partitioned by day. The DAG implements two modes:
+1. **Daily Mode:** Processes a single day's partition (regular scheduling scenario).
+2. **Custom Mode:** Reprocesses a specified date range in parallel using Dynamic Task Mapping.
+
+In addition to Dynamic Task Mapping, the example showcases these modern Airflow features:
+* [TaskFlow API](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html).
+* DAG parameters
+* Python Virtual Environment Operator
+
 ## Setup
 
 1. Start Airflow on your local machine by running `astro dev start`.
