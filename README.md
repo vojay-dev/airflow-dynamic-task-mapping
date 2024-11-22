@@ -21,7 +21,7 @@ simulating a typical data partitioning scenario. The data is partitioned by day.
 2. **Custom Mode:** Reprocesses a specified date range in parallel using Dynamic Task Mapping.
 
 In addition to Dynamic Task Mapping, the example showcases these modern Airflow features:
-* [TaskFlow API](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html).
+* [TaskFlow API](https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html)
 * DAG parameters
 * Python Virtual Environment Operator
 
